@@ -1,12 +1,8 @@
-# Quotes app
+# [Quotes app](https://gsg-fc02.github.io/Ahmed-Saja-Api/)
 
 **Team members:**
 - Saja abu safiah
 - Ahmed Hamouda
-
-###   link:
- https://gsg-fc02.github.io/Ahmed-Saja-Api/
-
 
 ###   name of App.
 quotes
