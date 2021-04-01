@@ -6,7 +6,7 @@ btn.addEventListener("click", getQuote )
 
 
 function getQuote(){
-    fetch("http://api.quotable.io/random")
+    fetch("https://api.quotable.io/random")
     .then((response) => response.json())
     .then(data =>{
         quote.innerHTML = data.content;
@@ -15,12 +15,3 @@ function getQuote(){
     .catch(error => { console.log('Something went wrong', error);
     });
 }
-
-// let para = document.createElement('p');
-// let content = document.querySelector('.content')
-// let datacon = data.content
-// para.appendChild(datacon);
-// content.appendChild(para)
-// let author = data.author
-// para.appendChild(author);
-// para.appendChild(b);
